@@ -1,0 +1,169 @@
+:root {
+  --oxford: #0C1B33;
+  --khaki: #B2AA8E;
+  --background-color: rgb(28, 31, 44);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:var(--khaki);
+}
+
+body {
+  height: 200vh;
+  background-color:var(--background-color);
+}
+
+.item {
+  display: inline-block;
+  margin: 0vh 2vw 0 0;
+  font-size: 25px;
+
+ 
+}
+#main_list{
+  position: absolute;
+  display: inline-block;
+  left: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 10vh;
+  background-color: var(--oxford);
+  margin: 0;
+  padding: 0;
+position: relative;
+
+}
+
+footer {
+  background-color: var(--oxford);
+  position: absolute;
+  bottom: -200vh;
+  height: 20vh;
+  width: 100vw;
+  position: relative;
+}
+
+main {
+  color: rgb(10, 10, 10);
+
+  height: 70vh;
+  width: 100vw;
+}
+
+#hedong {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 3vh;
+}
+
+.divs {
+  height: 459px;
+  width: 348px;
+  display: inline-block;
+  margin: 2vh 3vw 2vh 0vw;
+  position: relative;
+}
+
+#div1 {
+  background-color:var(--khaki);
+}
+
+#div2 {
+  background-color:var(--khaki);
+}
+
+#div3 {
+  background-color:var(--khaki);
+}
+
+#papa_div {
+  display: flex;
+  height: 70vh;
+  width: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 9vw;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+.images {
+  height: 98%;
+  width: 98%;
+  background: var(--oxford);
+  margin: 1% 1% 1% 1%;
+}
+.items {
+  height: 200px;
+  width: 200px;
+  border: black solid 5px;
+  display: inline-block;
+  margin: 0.9vh 4vw;
+}
+#item_2,#item_4,#item_5,#item_7,#item_10,#item_12,#item_13,#item_15,#item_18,#item_20 {
+  background-color: cornflowerblue;
+}
+#item_1,#item_3,#item_6,#item_8,#item_9,#item_11,#item_14,#item_16,#item_17,#item_19 {
+
+  background: hotpink;
+
+}
+#item{
+ margin-left: 3vw;
+ margin-top: 5vh ;
+}
+#h3{
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+ margin-top: 5vh;
+}
+#copyrights{
+  text-align: center;
+  font-size: 25px;
+  left: 25vw;
+  bottom: 10vh;
+  position: absolute;
+}
+#logo{
+position:absolute;
+display: inline-block;
+left: 18vw;
+bottom:9vh;
+}
+#logo_2{
+  display: inline-block;
+  
+ 
+  position: relative;
+  top: 1.2vh;
+}
+
+#list_2{
+  position: absolute;
+  display: inline-block;
+  right: 1vw;
+  top: 2vh;
+}
+.List_2_it{
+display: inline-block;
+margin-left: 1vw;
+}
+#search{
+ position: absolute;
+  display: inline-block;
+  right: 25vw;
+  top: 3vh;
+  height: 4vh;
+  width: 15vw;
+
+}
